@@ -23,8 +23,7 @@ services:
        source: ./config-server/nginx/vhost.conf
        target: /etc/nginx/conf.d/default.conf
        read_only: true
-   ports:
-     - 8080:80
+   restart: unless-stopped
 
  database:
    image: mysql:5.7
