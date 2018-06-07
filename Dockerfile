@@ -20,6 +20,8 @@ RUN apt-get update -y \
            pdftk \
            # required by composer
            unzip \
+           # just for testing
+           vim \
            # required by composer
            zip \
            # required by memcached
