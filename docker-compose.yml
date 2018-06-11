@@ -13,7 +13,6 @@ services:
      - "DB_DATABASE=homestead"
      - "DB_USERNAME=homestead"
      - "DB_PASSWORD=secret"
-   user: $UID
  web:
    image: nginx:stable
    volumes:
